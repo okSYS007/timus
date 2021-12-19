@@ -1,11 +1,11 @@
-a1 = input()
-b1 = input()
-a2 = input()
-b2 = input()
-a3 = input()
-b3 = input()
+_str1 = input().split()
+a = int(_str1[0])
+b = int(_str1[1])
+_str2 = input().split()
+a2 = int(_str2[0])
+b2 = int(_str2[1])
+_str3 = input().split()
+a3 = int(_str3[0])
+b3 = int(_str3[1])
 
-#a2 = a1+b1
-#b3 = a2+b2
-
-print((b1 + b2 + b3) / (a1+b1+b3)) / 2
+print(int(a-a3), int(b-b2))
